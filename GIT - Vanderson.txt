@@ -1,0 +1,25 @@
+Usar uma nova pasta, prorem trabalhando com um repositorio que existe no git.
+
+// Inicia o git na pasta
+git init
+
+// Define a conta de email do usuario do Git
+git config user.email "seumail@aluno.senai.br"
+
+// Define a conta de login usuario do Git
+git config user.name "seuLoguin" 
+
+// Define o endereço do repositorio
+git remote add origin https://github.com/suaContanoGit/repositório
+
+// Baixa o repositorio do git
+git clone https://github.com/suaContanoGit/repositório
+
+// O GIT ADD, precisa de ser realizado na pasta onde ja exite um aquivo git
+git add .
+
+// Define uma marcaçao FASE para identificar o que foi realizado
+git commit -m "Teste de Envio"
+
+// Envia para o GIT as alteraçoes
+git push -u origin main
